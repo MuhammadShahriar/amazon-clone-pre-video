@@ -1,0 +1,13 @@
+.showproducts > h1 {
+    background-color: white;
+    margin: 20px 0px;
+    padding: 10px;
+    text-align: center;
+}
+
+.showproducts__list {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+}
+

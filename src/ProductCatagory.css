@@ -1,0 +1,17 @@
+.hero{
+    background-image: linear-gradient(to top, rgba(256, 256, 256, 1) , transparent),
+    url(https://images-na.ssl-images-amazon.com/images/G/01/AmazonExports/Fuji/2021/June/Fuji_TallHero_Gamers_en_US_1x._CB667161802_.jpg);
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    height: 100vh;
+    width: 100%;
+}
+
+.productcatagory__cards {
+    margin-top: -450px;
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    
+}

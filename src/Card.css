@@ -1,0 +1,17 @@
+.card {
+    padding: 5px;
+    background-color: white;
+}
+
+.card > img {
+    width: 310px;
+    height: 330px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px 0px
+}
+
+.card > h2 {
+    padding: 0 15px;
+}

@@ -1,0 +1,50 @@
+.checkoutcard{
+    display: flex;
+    height: 200px;
+    border-top: 1px solid gray;
+}
+
+.checkoutcard > h3 {
+    margin-left: auto;
+    padding: 20px;
+}
+
+.checkoutcard__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutcard__details > h3 {
+    padding: 5px;
+}
+
+.checkoutcard > img {
+    width: 150px;
+    padding: 20px;
+}
+
+.checkoutcard__data {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+
+.checkoutcard__data > p {
+    font-size: 15px;
+    font-weight: 600;
+    padding: 0px 5px;
+}
+
+.checkoutcard__details {
+    display: flex;
+    flex-direction: column;
+}
+
+.checkoutcard__details > button {
+    padding: 5px;
+    margin: 5px;
+    font-size: 15px;
+    background-color: #ffaf4d;
+    width: 160px;
+    cursor: pointer;
+}

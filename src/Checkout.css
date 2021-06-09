@@ -1,0 +1,69 @@
+.checkout {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkout__cards {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.checkout__card{
+    display: flex;
+    align-items: top;
+    justify-content: space-between;
+}
+
+.checkout__card > h3 {
+    padding: 10px;
+}
+
+.checkout__title {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.checkout__cards--subtotal {
+    padding: 20px;
+    border-top: 1px solid gray;
+}
+
+.checkout__cards--subtotal > h2 {
+    text-align: end;
+}
+
+.checkout__subtotal {
+    box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+    margin: 0 20px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    height: 15vh;
+}
+
+.checkout__subtotal--gift {
+    display: flex;
+    align-items: center;
+    padding: 5px 0px;
+}
+
+.checkout__subtotal--gift > input {
+    margin-right: 5px;
+}
+
+.checkout__subtotal > button {
+    flex: 1;
+    margin: 10px 0px;
+    background-color: #ffb703;
+    border-radius: 5px;
+    border : 0px;
+}
