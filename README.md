@@ -1,3 +1,13 @@
+# Live demo : https://clone-37d44.web.app/
+This app is made to teach my students Reactjs. Soon I will create video how to make this build.
+
+# All technology used :
+* React js
+* React context Api
+* Firebase login
+* Material UI
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
